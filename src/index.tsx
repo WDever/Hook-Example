@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+import './index.css';
+import 'antd/dist/antd.css';
+import 'gestalt/dist/gestalt.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
